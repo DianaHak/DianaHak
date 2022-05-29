@@ -1,0 +1,330 @@
+.first-page{
+	width: 100%;
+	height: 800px;
+	background-image: url(../image/consulting.jpg);
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+header{
+	width: 100%;
+	height: 100px;
+	/*background-color: #132239;*/
+	background: rgba(19, 35, 57, 0.98);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	position: fixed;
+	z-index: 9;
+}
+header div h3{
+	color: white;
+	font-weight: bolder;
+	opacity: 1 !important;
+}
+.options{
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+}
+.links{
+	color: white;
+	text-decoration: none;
+}
+.links:hover{
+	color: #318CE7;
+}
+header div button{
+	background-color: #132339;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 15px;
+}
+header div button:hover{
+	color:  #132339;
+	background-color: white;
+}
+.first-page-text{
+	    padding-top: 300px;
+    padding-left: 55px;
+    width: 500px;
+}
+.first-page-text p{
+	color: white;
+}
+.first-page-text p:first-child{
+	font-size: 40px;
+}
+.first-page-text p:nth-child(2){
+	font-size: 25px;
+}
+.first-page-text button{
+	background-color: #132339;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 15px;
+}
+.first-page-text button:hover{
+	color:  #132339;
+	background-color: white;
+}
+.uslugi-headers{
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 45px;
+	padding-top: 35px;
+	margin-bottom: 45px;
+	padding-bottom: 35px;
+}
+.uslugi-headers h5{
+	color: #1D3557 ;
+}
+.uslugi-headers h1{
+	color: #1D3557;
+}
+.column-image{
+	margin: 0 auto;
+	width: 180px;
+	height: 180px;
+}
+.column-image img{
+	width: 100%;
+	height: 100%;
+}
+.column-image1{
+	margin: 0 auto;
+	width: 280px;
+	height: 180px;
+}
+.column-image1 img{
+	width: 100%;
+	height: 100%;
+}
+.col-sm-4 h3{
+	margin-left: 30px;
+}
+.col-sm-4 p{
+	margin-left: 30px;
+}
+.uslugi{
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+.dark-blue{
+	width: 100%;
+	background-color: #16163F;
+	/*margin-bottom: 50px;*/
+	padding-bottom: 50px;
+}
+.dark-blue-center{
+	display: flex;
+	align-items: center;
+	width: 800px;
+	margin: 0 auto;
+}
+.dark-blue h1{
+	color: white;
+	text-align: center;
+	padding: 35px;
+	margin: 35px;
+}
+.dark-blue p:first-child{
+	font-size: 55px;
+	color: white;
+	margin-top: 7px;
+}
+.dark-blue p:last-child{
+	font-size: 20px;
+	color: white;
+	margin-top: -28px;
+}
+.dark-blue-mini{
+	width: 200px;
+	text-align: center;
+}
+.company-circle{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: white;
+}
+.about{
+	width: 100%;
+	height: 610px;
+	background-image: url(../image/background.jpg);
+	background-attachment: fixed;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.about-left{
+	width: 50%;
+	background-color: white;
+}
+.about-left-text{
+	margin: 40px;
+	padding: 40px;
+	padding-bottom: 50px;
+	width: 450px;
+}
+.about-left h5{
+	padding-top: 40px;
+	margin-left: 40px;
+	padding-left: 40px;
+	color: #1D3557 ;
+}
+.about-left h1{
+	color: #1D3557;
+	margin-left: 40px;
+	padding-left: 40px;
+}
+.review{
+	width: 100%;
+	background-color: #16163F;
+}
+.review h5{
+	color: white;
+	text-align: center;
+	padding-top: 35px;
+}
+.review-text{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.review-text p{
+	color: white;
+	font-size: 40px;
+}
+.reviewer{
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+.reviewer p{
+	color: white;
+	font-size: 25px;
+}
+.reviewer p:last-child{
+	padding-bottom: 50px;
+}
+.inputs{
+	width: 50px;
+	margin: 0 auto;
+}
+#review2{
+	display: none;
+}
+#review3{
+	display: none;
+}
+.clients{
+	background-color: #AFC9DB;
+	width: 100%;
+}
+.clients h3{
+	padding-top: 50px;
+	text-align: center;
+}
+.clientss{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+.client1{
+	width: 200px;
+}
+.client1 img{
+	width: 100%;
+}
+.contacts{
+	background-color: #D7DFEA;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	/*margin-bottom: 40px;*/
+	padding-bottom: 40px;
+}
+.contact{
+	width: 500px;
+}
+.contact h4{
+	color: #16163F;
+	padding: 35px 35px 0px 35px;
+}
+.contact h2{
+	color: #16163F;
+	padding: 35px;
+}
+.contact p{
+	padding:15px 35px 0px 35px;
+}
+.contact p a {
+	text-decoration: none;
+	color: black;
+}
+.contact p a:hover {
+	text-decoration: none;
+	color: #16163F;
+}
+.contact-icons{
+	width: 100px;
+	display: flex;
+	padding-left: 25px;
+}
+.contact-icons a {
+	padding-left: 15px;
+	color: black;
+	font-size: 25px;
+}
+.contact-form{
+	padding-top: 35px;
+	width: 500px;
+}
+form div input{
+	outline: 0;
+  border-width: 0 0 2px;
+  border-color: #16163F;
+  background: transparent;
+}
+input[type=email]{
+	width: 400px;
+}
+.surname{
+	margin-left: 25px;
+}
+textarea{
+	resize: none;
+	width: 400px;
+	height: 200px;
+}
+form button{
+	background-color: #132339;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	padding: 15px;
+}
+form button:hover{
+	color:  #132339;
+	background-color: white;
+}
+.map-muraba{
+	width: 100%;
+}
+.map-muraba iframe{
+	width: 100%;
+}
+.map-muraba p {
+	padding: 25px;
+	text-align: center;
+}
